@@ -197,7 +197,7 @@ About
     background: var(--clr-white);
     border-radius: var(--radius);
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
 }
 .btn-container {
     border-top-left-radius: var(--radius);
@@ -205,7 +205,7 @@ About
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.tab-btn:nth-child {
+.tab-btn:nth-child(1) {
     border-top-left-radius: var(--radius);
 }
 .tab-btn:nth-child(3) {
@@ -238,6 +238,6 @@ About
 .tab-btn.active {
     background: var(--clr-white);
 }
-.conent.active {
+.content.active {
     display: block;
 }
